@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skill Gap Analyser</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>🎯 Skill Gap Analyser</h1>
+        <p class="subtitle">
+            Compare your skills with the required job skills and identify the missing skills.
+        </p>
+
+        <form id="skillForm">
+
+            <label>Student Name</label>
+            <input type="text" id="studentName" placeholder="Enter your name" required>
+
+            <label>Department</label>
+            <input type="text" id="department" placeholder="Enter your department" required>
+
+            <label>Current Skills</label>
+            <textarea id="currentSkills" rows="4"
+                placeholder="Example: HTML, CSS, JavaScript"></textarea>
+
+            <label>Required Skills</label>
+            <textarea id="requiredSkills" rows="4"
+                placeholder="Example: HTML, CSS, JavaScript, Node.js,
