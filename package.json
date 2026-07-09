@@ -1,0 +1,23 @@
+{
+  "name": "skill-gap-analyser",
+  "version": "1.0.0",
+  "description": "A web application to analyze the gap between a student's current skills and required job skills.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "skill-gap",
+    "student",
+    "placement",
+    "nodejs",
+    "express",
+    "sqlite"
+  ],
+  "author": "Harini Loganathan",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2",
+    "sqlite3": "^5.1.7"
+  }
+}
